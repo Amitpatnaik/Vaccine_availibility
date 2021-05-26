@@ -39,8 +39,8 @@ def create_output(session_info):
 def check_availibilty():
     print(get_for_seven_days(datetime.today()))
     content = "\n".join([create_output(session_info) for session_info in get_for_seven_days(datetime.today())])
-    username = "patnaik.amit96@gmail.com"
-    password = "gim641641"
+    username = ""
+    password = ""
     if not content:
         print("No availability")
     else:
